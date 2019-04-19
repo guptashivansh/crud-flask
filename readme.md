@@ -33,9 +33,7 @@ This endpoint should return list of 10 users whose first name or last name conta
 
 /api/users - POST - To create a new user
 Request Payload should be like in json format :-
-
 Response with HTTP status code 201 on success
-	{}
 This endpoint will create a new user inside the database
 
 
@@ -55,11 +53,10 @@ Request Payload should be like in json format for updating first name, last name
     "last_name": "Darakjy",
     "age": 48
 }
-
 Response with HTTP status code 200 on success
-	{}
+
+
 
 /api/users/{id} - DELETE - To delete the user
 Here {id} will be the id of the user in path parameter 
 Response with HTTP status code 200 on success
-	{}
